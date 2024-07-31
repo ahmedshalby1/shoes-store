@@ -1,0 +1,921 @@
+.navbar{
+    background-color: white;
+    width: 1682px;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    box-shadow: 9px 0px 5px;
+    left: -4px;
+  }
+  .titlenav{
+    position: absolute;
+    font-size: 37px;
+    font-weight: 800;
+    color: purple;
+    top: -4px;
+    left: 119px;
+    cursor: pointer;
+  }
+  .homenav{
+    position: absolute;
+    top: 17%;
+    font-size: 19px;
+    left: 574px;
+    cursor: pointer;
+  }
+  .produtnav{
+    position: absolute;
+    top: 17%;
+    font-size: 19px;
+    left: 650px;
+    cursor: pointer;
+  }
+  .aboutnav{
+    position: absolute;
+    top: 17%;
+    font-size: 19px;
+    left: 730px;
+    cursor: pointer;
+  }
+  .reviewnav{
+    position: absolute;
+    top: 17%;
+    font-size: 19px;
+    left: 810px;
+    cursor: pointer;
+  }
+  .servicesnav{
+    position: absolute;
+    top: 17%;
+    font-size: 19px;
+    left: 890px;
+    cursor: pointer;
+  }
+  .iconuser{
+    position: absolute;
+    left: 1353px;
+    cursor: pointer;
+    top: 27%;
+  }
+  .iconmarket{
+    position: absolute;
+    left: 1385px;
+    cursor: pointer;
+    top: 27%;
+  }
+  .iconheart{
+    position: absolute;
+    left: 1417px;
+    cursor: pointer;
+    top: 27%;
+  }
+  .iconuser:hover i,
+  .iconmarket:hover i,
+  .iconheart:hover i {
+    color: purple;
+  }
+  .homenav:hover ,.produtnav:hover ,.aboutnav:hover ,.reviewnav:hover ,.servicesnav:hover{
+    color: purple;
+  }
+  .discribtion{
+    top: 10%;
+    position: absolute;
+    width: 95px;
+  }
+  .titledis{
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: 227px;
+    font-size: 68px;
+    left: 98%;
+  }
+  .dis{
+    position: absolute;
+    width: 752px;
+    top: 314px;
+    left: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    z-index: 5;
+  }
+  .shopbutton{
+    position: absolute;
+    width: 129px;
+    top: 473px;
+    left: 106px;
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border: none;
+    height: 31px;
+    font-size: 17px;
+    border-radius: 11px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    z-index: 5;
+  }
+  .circleone{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border-radius: 178px;
+    top: 103px;
+    z-index: 0;
+    left: 393px;
+    clip-path: polygon(-94% 0%, 109% 0%, 95% 100%, 43% 100%);
+    transform: rotate(284deg);
+  }
+  .circletwo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border-radius: 178px;
+    top: 258px;
+    left: 510px;
+  }
+  .circlethree{
+    width: 700px;
+    height: 700px;
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border-radius: 350px;
+    position: absolute;
+    left: 853px;
+    z-index: 2;
+  }
+  .nikeetitle{
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    top: 168px;
+    font-size: 53px;
+    left: 120%;
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+  .imageone{
+    position: absolute;
+    top: -12px;
+    left: 914px;
+    z-index: 3;
+  }
+  .lineone{
+    position: absolute;
+    top: 496px;
+    width: 331px;
+    height: 10px;
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border-radius: 14px;
+    transform: rotate(319deg);
+    left: 767px;
+  }
+  .boxone{
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 9px 29px purple;
+    left: 68px;
+    width: 243px;
+    height: 334px;
+    border-radius: 17px;
+    top: 1010px;
+    }
+  
+  .productstitle{
+    font-size: 49px;
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: 245%;
+    left: 29%;
+  }
+  .imageboxone{
+    font-size: 20px;
+    width: 200px;
+    position: relative;
+    left: 15px;
+  }
+  .titleboxone{
+    position: relative;
+     top: 12%; 
+    top: 0px;
+    left: 73px;
+    font-size: 23px;
+    font-weight: 900;
+    width: 74px;
+    text-align: center;
+  }
+  .textboxone{
+    opacity: 0.6;
+    text-align: center;
+    }
+  
+  .priceboxone{
+    position: relative;
+    left: -2px;
+    font-size: 25px;
+    font-weight: 900;
+    width: 220px;
+    text-align: center;
+  }
+  .buttonboxone{
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border: none;
+    width: 105px;
+    position: relative;
+    left: 55px;
+    height: 31px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .productstitle{
+    font-size: 49px;
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: 99%;
+    left: 41%;
+  }
+  .boxtwo{
+    background-color: white;
+    box-shadow: 0px 9px 29px purple;
+    width: 243px;
+    height: 334px;
+    border-radius: 17px;
+    position: absolute;
+    top: 110%;
+    left: 23.4%;
+  }
+  .imageboxtwo{
+    font-size: 23px;
+    width: 219px;
+    position: relative;
+    left: 9%;
+    height: 199px;
+  }
+  .titleboxtwo{
+    font-size: 23px;
+    font-weight: 900;
+    width: 74px;
+    text-align: center;
+    position: relative;
+    left: 29%;
+  }
+  .textboxtwo{
+    opacity: 0.6;
+    text-align: center;
+  }
+  .priceboxtwo{
+    font-size: 25px;
+    font-weight: 900;
+    width: 220px;
+    text-align: center;
+  }
+  .buttonboxtwo{
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border: none;
+    width: 105px;
+    height: 31px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+  }
+  .boxthree{
+    background-color: white;
+    box-shadow: 0px 9px 29px purple;
+    width: 243px;
+    height: 334px;
+    border-radius: 17px;
+    position: absolute;
+    top: 110%;
+    left: 42.4%;
+  }
+  .imageboxthree{
+    font-size: 23px;
+    width: 219px;
+    position: relative;
+    left: 9%;
+    height: 199px;
+  }
+  .buttonboxthree{
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border: none;
+    width: 105px;
+    height: 31px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+  }
+  .textboxthree{
+    opacity: 0.6;
+    text-align: center;
+  }
+  .titleboxthree{
+    font-size: 23px;
+    font-weight: 900;
+    width: 74px;
+    text-align: center;
+    position: relative;
+    left: 29%;
+  }
+  .priceboxthree{
+    font-size: 25px;
+    font-weight: 900;
+    width: 220px;
+    text-align: center;
+  }
+  .boxfour{
+    background-color: white;
+    box-shadow: 0px 9px 29px purple;
+    width: 243px;
+    height: 334px;
+    border-radius: 17px;
+    position: absolute;
+    top: 110%;
+    left: 61.4%;
+  }
+  .imageboxfour{
+    font-size: 23px;
+    width: 219px;
+    position: relative;
+    left: 9%;
+    height: 199px;
+  }
+  .buttonboxfour{
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border: none;
+    width: 105px;
+    height: 31px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+  }
+  .textboxfour{
+    opacity: 0.6;
+    text-align: center;
+  }
+  .titleboxfour{
+    font-size: 23px;
+    font-weight: 900;
+    width: 74px;
+    text-align: center;
+    position: relative;
+    left: 29%;
+  }
+  .priceboxfour{
+    font-size: 25px;
+    font-weight: 900;
+    width: 220px;
+    text-align: center;
+  }
+  .boxfive{
+    background-color: white;
+    box-shadow: 0px 9px 29px purple;
+    width: 243px;
+    height: 334px;
+    border-radius: 17px;
+    position: absolute;
+    top: 110%;
+    left: 80.4%;
+  }
+  .imageboxfive{
+    font-size: 23px;
+    width: 219px;
+    position: relative;
+    left: 9%;
+    height: 199px;
+  }
+  .buttonboxfive{
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border: none;
+    width: 105px;
+    height: 31px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+  }
+  .textboxfive{
+    opacity: 0.6;
+    text-align: center;
+  }
+  .titleboxfive{
+    font-size: 23px;
+    font-weight: 900;
+    width: 74px;
+    text-align: center;
+    position: relative;
+    left: 29%;
+  }
+  .priceboxfive{
+    font-size: 25px;
+    font-weight: 900;
+    width: 220px;
+    text-align: center;
+  }
+  .boxsix{
+    background-color: white;
+    box-shadow: 0px 9px 29px purple;
+    width: 243px;
+    height: 334px;
+    border-radius: 17px;
+    position: absolute;
+    top: 151%;
+    left: 4.4%;
+  }
+  .imageboxsix{
+    font-size: 23px;
+    width: 219px;
+    position: relative;
+    left: 9%;
+    height: 199px;
+  }
+  .buttonboxsix{
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border: none;
+    width: 105px;
+    height: 31px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+  }
+  .textboxsix{
+    opacity: 0.6;
+    text-align: center;
+  }
+  .titleboxsix{
+    font-size: 23px;
+    font-weight: 900;
+    width: 74px;
+    text-align: center;
+    position: relative;
+    left: 29%;
+  }
+  .priceboxsix{
+    font-size: 25px;
+    font-weight: 900;
+    width: 220px;
+    text-align: center;
+  }
+  .boxseven{
+    background-color: white;
+    box-shadow: 0px 9px 29px purple;
+    width: 243px;
+    height: 334px;
+    border-radius: 17px;
+    position: absolute;
+    top: 151%;
+    left: 23.4%;
+  }
+  .imageboxseven{
+    font-size: 23px;
+    width: 219px;
+    position: relative;
+    left: 9%;
+    height: 199px;
+  }
+  .buttonboxseven{
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border: none;
+    width: 105px;
+    height: 31px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+  }
+  .textboxseven{
+    opacity: 0.6;
+    text-align: center;
+  }
+  .titleboxseven{
+    font-size: 23px;
+    font-weight: 900;
+    width: 74px;
+    text-align: center;
+    position: relative;
+    left: 29%;
+  }
+  .priceboxseven{
+    font-size: 25px;
+    font-weight: 900;
+    width: 220px;
+    text-align: center;
+  }
+  .boxeight{
+    background-color: white;
+    box-shadow: 0px 9px 29px purple;
+    width: 243px;
+    height: 334px;
+    border-radius: 17px;
+    position: absolute;
+    top: 151%;
+    left: 42.4%;
+  }
+  .imageboxeight{
+    font-size: 23px;
+    width: 219px;
+    position: relative;
+    left: 9%;
+    height: 199px;
+  }
+  .buttonboxeight{
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border: none;
+    width: 105px;
+    height: 31px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+  }
+  .textboxeight{
+    opacity: 0.6;
+    text-align: center;
+  }
+  .titleboxeight{
+    font-size: 23px;
+    font-weight: 900;
+    width: 74px;
+    text-align: center;
+    position: relative;
+    left: 29%;
+  }
+  .priceboxeight{
+    font-size: 25px;
+    font-weight: 900;
+    width: 220px;
+    text-align: center;
+  }
+  .boxnine{
+    background-color: white;
+    box-shadow: 0px 9px 29px purple;
+    width: 243px;
+    height: 334px;
+    border-radius: 17px;
+    position: absolute;
+    top: 151%;
+    left: 61.4%;
+  }
+  .imageboxnine{
+    font-size: 23px;
+    width: 219px;
+    position: relative;
+    left: 9%;
+    height: 199px;
+  }
+  .buttonboxnine{
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border: none;
+    width: 105px;
+    height: 31px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+  }
+  .textboxnine{
+    opacity: 0.6;
+    text-align: center;
+  }
+  .titleboxnine{
+    font-size: 23px;
+    font-weight: 900;
+    width: 74px;
+    text-align: center;
+    position: relative;
+    left: 29%;
+  }
+  .priceboxnine{
+    font-size: 25px;
+    font-weight: 900;
+    width: 220px;
+    text-align: center;
+  }
+  .boxten{
+    background-color: white;
+    box-shadow: 0px 9px 29px purple;
+    width: 243px;
+    height: 334px;
+    border-radius: 17px;
+    position: absolute;
+    top: 151%;
+    left: 80.4%;
+  }
+  .imageboxten{
+    font-size: 23px;
+    width: 219px;
+    position: relative;
+    left: 9%;
+    height: 199px;
+  }
+  .buttonboxten{
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    border: none;
+    width: 105px;
+    height: 31px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    left: 23%;
+  }
+  .textboxten{
+    opacity: 0.6;
+    text-align: center;
+  }
+  .titleboxten{
+    font-size: 23px;
+    font-weight: 900;
+    width: 74px;
+    text-align: center;
+    position: relative;
+    left: 29%;
+  }
+  .priceboxten{
+    font-size: 25px;
+    font-weight: 900;
+    width: 220px;
+    text-align: center;
+  }
+  .titleofweb{
+    position: absolute;
+    top: 196%;
+    left: 41%;
+    width: 61px;
+  }
+  .web{
+    font-size: 35px;
+    position: absolute;
+    left: 0%;
+    font-weight: 800;
+  }
+  .about{
+    position: absolute;
+    top: 0%;
+    left: 87px;
+    font-size: 35px;
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+  }
+  .mainimg{
+    width: 679px;
+    position: absolute;
+    top: 209%;
+    left: 12%;
+    box-shadow: -1px 4px 28px purple;
+    border-color: black;
+    border-radius: 40px;
+  }
+  .imgwebtwo{
+    width: 150px;
+    position: absolute;
+    top: 209%;
+    background-color: purple;
+    border-radius: 17px;
+    left: 2%;
+    cursor: pointer;
+  }
+  .imgwebthree{
+    width: 150px;
+    position: absolute;
+    top: 223%;
+    background-color: purple;
+    border-radius: 17px;
+    left: 2%;
+    cursor: pointer;
+  }
+  .imgwebfour{
+    width: 150px;
+    position: absolute;
+    top: 237%;
+    background-color: purple;
+    border-radius: 17px;
+    left: 2%;
+    cursor: pointer;
+  }
+  .imgwebfive{
+    width: 150px;
+    position: absolute;
+    top: 251%;
+    background-color: purple;
+    border-radius: 17px;
+    left: 2%;
+    cursor: pointer;
+  }
+  .disweb{
+    position: absolute;
+    top: 211%;
+    width: 587px;
+    left: 62%;
+    font-size: 21px;
+    color: purple;
+    box-shadow: 0px 0px 31px pink;
+  }
+  .shopbuttonweb{
+    position: absolute;
+    top: 264%;
+    left: 54%;
+    width: 110px;
+    height: 32px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px purple;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .our{
+    position: absolute;
+    top: 284%;
+    left: 46%;
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .service{
+    POSITION: absolute;
+    top: 284%;
+    left: 51%;
+    font-size: 32px;
+    font-weight: 800;
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+  .iconsour{
+    position: absolute;
+    top: 294%;
+    left: 36%;
+  }
+  .vanicon{
+    position: relative;
+    top: -15px;
+    left: -293px;
+    font-size: 120px;
+  }
+  .reicon{
+    font-size: 120px;
+    position: relative;
+    top: -154px;
+    left: 182px;
+  }
+  .headicon{
+    font-size: 120px;
+    position: relative;
+    top: -285px;
+    left: 684px;
+  }
+  .vancontent{
+    position: absolute;
+    top: 115px;
+    left: -273px;
+    font-size: 21px;
+    font-weight: 800;
+  }
+  .recontent{
+    position: absolute;
+    top: 121px;
+    left: 154px;
+    width: 193px;
+    font-size: 21px;
+    font-weight: 800;
+  }
+  .headcontent{
+    position: absolute;
+    top: 120px;
+    font-size: 21px;
+    font-weight: 800;
+    left: 675px;
+    width: 155px;
+  }
+  .vandis{
+    position: absolute;
+    top: 142px;
+    left: -293px;
+    width: 207px;
+    opacity: 0.5;
+  }
+  .redis{
+    position: absolute;
+    top: 146px;
+    left: 149px;
+    width: 207px;
+    opacity: 0.5;
+  }
+  .headdis{
+    position: absolute;
+    top: 147px;
+    left: 639px;
+    width: 207px;
+    opacity: 0.5;
+  }
+  .imglogin{
+    width: 855px;
+    z-index: 3;
+    position: relative;
+    }
+  
+  .review{
+    position: absolute;
+    top: 344%;
+    width: 339px;
+    height: -13%;
+    left: 1%;
+  }
+  .reviewtitle{
+    position: absolute;
+    top: 21%;
+    z-index: 4;
+    left: 323%;
+    width: 260px;
+    font-size: 36px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .username{
+    position: absolute;
+    top: 29%;
+    z-index: 4;
+    left: 324%;
+    width: 243px;
+    height: 21px;
+    background: transparent;
+    border: 2px solid purple;
+  }
+  .Password{
+    position: absolute;
+    top: 37%;
+    z-index: 4;
+    left: 324%;
+    width: 243px;
+    height: 21px;
+    background: transparent;
+    border: 2px solid purple;
+  }
+  .loginbutton{
+    position: absolute;
+    z-index: 4;
+    left: 324%;
+    width: 251px;
+    height: 31px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 6px;
+     background: linear-gradient(to right, #800080, #FFC0CB);
+    color: white;
+    cursor: pointer;
+    top: 45%;
+  }
+  .imglogintwo{
+    position: absolute;
+    width: 1645px;
+    left: -2%;
+    top: 10%;
+    height: 758px;
+    z-index: 2;
+  }
